@@ -50,6 +50,8 @@ scoop install pycharm
 
 ## pip ignore ssl certificate
 
+[add the trusted hosts to the pip configuration](https://stackoverflow.com/a/67796873):
+
 ```powershell
 pip config set global.trusted-host `
     "pypi.org files.pythonhosted.org pypi.python.org" `
